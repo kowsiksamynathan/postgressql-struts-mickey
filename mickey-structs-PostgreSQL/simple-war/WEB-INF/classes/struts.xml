@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+"http://struts.apache.org/dtds/struts-2.5.dtd">
+
+
+
+
+<struts>
+    
+    
+    <constant name="struts.devMode" value="true" />
+    <package name="/" namespace="/" extends="json-default" >
+        <action name="class1" class="class1" method="execute">
+            <result name="success" type="json"/>
+        </action>
+
+
+        <action name="class2" class="class2" method="execute">
+            <result name="success" type="json"/>
+        </action>
+
+
+
+        <action name="class3" class="class3" method="execute">
+            <result name="success" type="json"/>
+        </action>
+
+
+        <action name="class4" class="class4" method="execute">
+            <result name="success" type="json"/>
+        </action>
+
+
+
+
+    </package>
+    
+    
+</struts>
